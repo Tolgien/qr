@@ -1,0 +1,26 @@
+{
+  "name": "QRim.net - Dijital Restoran Menüsü",
+  "short_name": "QRim.net",
+  "description": "QRim.net ile restoran menülerini dijitalleştirin. Temassız sipariş, anlık güncelleme, çoklu dil desteği ile profesyonel dijital menü sistemi.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F3EB",
+  "theme_color": "#34C8B6",
+  "orientation": "portrait",
+  "categories": ["business", "food", "productivity"],
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/logo-qrim.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-qrim.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
