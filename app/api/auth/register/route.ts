@@ -1,7 +1,7 @@
 
 import { NextResponse } from 'next/server'
 import { query } from '@/lib/db'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import { SignJWT } from 'jose'
 import { createPaymentRequest } from '@/lib/iyzico'
 import { sendVerificationEmail } from '@/lib/resend'

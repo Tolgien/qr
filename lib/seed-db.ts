@@ -1,6 +1,6 @@
 
 import pool from './db'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 
 async function seedDatabase() {
   const client = await pool.connect()

@@ -2,7 +2,7 @@
 import { NextResponse } from 'next/server'
 import { query } from '@/lib/db'
 import { verifyToken } from '@/lib/auth'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 
 export const dynamic = 'force-dynamic'
 
